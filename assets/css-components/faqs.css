@@ -1,0 +1,29 @@
+.faqs-title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+
+.faqs-main{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.faqs{
+    width: 50%;
+    margin: 24px auto;
+    padding-top: 20px;
+    border-top: 1px solid rgb(229, 230, 233);
+}
+
+.question{
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+.answer{
+    color: var(--colorX1);
+    font-size: 18px;
+}

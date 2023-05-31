@@ -1,0 +1,122 @@
+.features-main{
+    display: flex;
+    flex-direction: row;
+}
+
+.features-text{
+    border-bottom: 1px solid rgb(229, 230, 233);
+    margin-bottom: 1em;
+}
+
+.features-img-1{
+    background-image: url(../img/feature-cover.1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    width: 50%;
+}
+
+.fearures-main-1{
+    width: 50%;
+}
+
+
+.fearures-main-space{
+    padding: 2em;
+}
+
+.features-title{
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+
+.features-content{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 1em;
+    color: var(--colorX1);
+}
+
+.features-review-img{
+    background-image: url(../img/feature-review-photo.1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid var(--color1);
+    border-radius: 50%;
+    padding: 1em;
+}
+
+.features-review{
+    color: var(--colorX1);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 1em;
+}
+
+.features-review div {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.features-review-content{
+    font-size: 18;
+}
+
+.features-review-author strong{
+    font-weight: 700;
+}
+
+/* features 2 */
+
+.features-img-2{
+    background-image: url(../img/feature-cover.2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80%;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+
+.features-main-2{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.fearures-main-op{
+    width: 80%;
+}
+
+.features-review-img-2{
+    background-image: url(../img/feature-review-photo.2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid var(--color1);
+    border-radius: 50%;
+    padding: 1em;
+}
+
+/*  features 3 */
+
+.features-img-3{
+    background-image: url(../img/feature-cover.3.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    width: 90%;
+}
+
+.features-review-img-3{
+    background-image: url(../img/feature-review-photo.3.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid var(--color1);
+    border-radius: 50%;
+    padding: 1em;
+}

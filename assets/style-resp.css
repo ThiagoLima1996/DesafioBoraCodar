@@ -1,0 +1,39 @@
+@media screen and (max-width: 768px) {
+    .hero-main {
+        grid-template-columns: auto;
+        grid-template-rows: 1fr 1fr;
+        row-gap: 3em;
+    }
+
+    .hero-img {
+        width: 90%;
+        margin-left: auto;
+    }
+
+    .features-main {
+        flex-direction: column;
+    }
+
+    .features-img-1{
+        height: 50vh;
+        width: 97%;
+    }
+
+    .features-main-2 {
+        flex-direction: column;
+    }
+
+    .features-img-2 {
+        height: 50vh;
+        width: 97%;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 16px;
+        border-bottom-right-radius: 16px;
+    }
+
+    .testimonials-main {
+        display: flex;
+        flex-direction: column;
+    }
+}

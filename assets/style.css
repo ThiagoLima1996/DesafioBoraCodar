@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700;900&display=swap');
+@import url(./css-components/hero.css);
+@import url(./css-components/features.css);
+@import url(./css-components/testimonials.css);
+@import url(./css-components/faqs.css);
+@import url(./css-components/reinforcing.css);
+@import url(./css-components/note.css);
+@import url(./css-components/footer.css);
+@import url(./style-resp.css);
+
+:root {
+
+    --colorX: rgb(0, 0, 0);
+    --colorX1: rgba(0, 0, 0, 0.6);
+    --color0: rgb(255, 255, 255);
+    --color1: rgb(247, 22, 116);
+    --color2: rgb(255, 224, 220);
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--colorX);
+    background-color: var(--color0);
+
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100px;
+    margin-bottom: 150px;
+}
+
+.btn{
+    background-color: var(--color1);
+    color: var(--color0);
+    font-size: 16px;
+    padding: 0.5em;
+    border-radius: 5px;
+    margin-bottom: 1em;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: var(--color2);
+    transition-duration: 0.3s;
+}
+

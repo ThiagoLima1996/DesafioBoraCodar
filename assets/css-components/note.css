@@ -1,0 +1,43 @@
+.note-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color2);
+    padding: 6em;
+}
+
+.note-title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+
+.note-card{
+    margin: 0 auto;
+    width: 500px;
+}
+
+.note-review{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+.note-content{
+    font-size: 18px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.note-img{
+    background-image: url(../img/note-photo.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid var(--color1);
+    border-radius: 50%;
+    padding: 1.5em;
+}
+
+.note-author strong {
+    font-weight: 700;
+}
